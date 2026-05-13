@@ -349,8 +349,8 @@ $last_update = date('d M Y | H:i:s');
                                 <div class="chart-pie">
                                     <canvas id="myPieChart"></canvas>
                                     <div style="position:absolute; top:50%; left:0; width:100%; text-align:center; transform:translateY(-40%); pointer-events:none;">
-                                        <div style="font-size: 1.1rem; font-weight: 800; color: #5a5c69;"><?= $total_kategori_today; ?></div>
-                                        <div style="font-size: 0.72rem; color: #858796;">Total Hari Ini</div>
+                                        <div style="font-size: 2.5rem; font-weight: 800; color: #5a5c69;"><?= $total_kategori_today; ?></div>
+                                        <div style="font-size: 1.25rem; color: #858796;">Total Hari Ini</div>
                                     </div>
                                 </div>
 
