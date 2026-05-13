@@ -17,23 +17,15 @@ if(!$data) { echo "Data tidak ditemukan!"; exit; }
 // Logika Penjelasan & Mitigasi
 $penjelasan = "";
 $mitigasi = "";
-$mikrotik_script = ""; 
 
 if($data['kategori'] == 'VPN') {
     $penjelasan = "Pengguna terdeteksi menggunakan protokol enkripsi (VPN) untuk menyembunyikan identitas trafik atau mencoba melewati filter keamanan jaringan.";
     $mitigasi = "1. Blokir port standar VPN.<br>2. Gunakan Address List untuk isolasi IP.<br>3. Terapkan kebijakan Drop pada Raw Firewall.";
-    
-    // Script Manual CLI
-    $mikrotik_script = "/ip firewall address-list add address=" . $data['ip_address'] . " list=Isolasi-VPN comment=\"Blokir VPN: " . $data['hostname'] . "\"";
 } else {
     $penjelasan = "Sistem mendeteksi upaya akses menuju domain atau alamat IP yang terdaftar dalam blacklist perjudian online (JUDOL).";
     $mitigasi = "1. Redirect DNS ke halaman isolasi.<br>2. Masukkan MAC Address ke daftar blokir permanen.<br>3. Lakukan pembersihan cache browser pada perangkat user.";
-    
-    // Script Manual CLI
-    $mikrotik_script = "/ip firewall filter add chain=forward src-mac-address=" . $data['mac_address'] . " action=drop comment=\"Blokir Judol: " . $data['hostname'] . "\"";
 }
 
-// Waktu sekarang dalam format WIB
 $last_update = date('d M Y | H:i:s');
 ?>
 
@@ -48,16 +40,40 @@ $last_update = date('d M Y | H:i:s');
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <style>
-        .container-fluid { padding-top: 10px !important; }
-        .card-body { padding: 1.25rem !important; }
-        .topbar { height: 3.5rem !important; margin-bottom: 1rem !important; }
-        .table-detail td { padding: 8px 0; border-bottom: 1px solid #f1f1f1; }
-        code { font-size: 110%; }
-        /* Animasi tambahan untuk tombol bahaya */
+        /* Membuat container utama memenuhi layar */
+        html, body, #wrapper, #content-wrapper, #content {
+            height: 100%;
+        }
+        #content {
+            display: flex;
+            flex-direction: column;
+        }
+        /* Mengatur agar container fluid mengambil sisa ruang */
+        .full-screen-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 15px !important;
+            overflow-y: auto; /* Agar tetap bisa scroll jika konten overload */
+        }
+        .main-row {
+            flex: 1;
+        }
+        .card {
+            height: 100%; /* Membuat card memanjang ke bawah */
+            display: flex;
+            flex-direction: column;
+        }
+        .card-body {
+            flex: 1;
+        }
+        .topbar { height: 3.5rem !important; }
+        .table-detail td { padding: 12px 0; border-bottom: 1px solid #f8f9fc; }
+        
         .animate-pulse { animation: pulse 2s infinite; }
         @keyframes pulse {
             0% { transform: scale(1); }
-            50% { transform: scale(1.02); }
+            50% { transform: scale(1.01); }
             100% { transform: scale(1); }
         }
     </style>
@@ -65,117 +81,114 @@ $last_update = date('d M Y | H:i:s');
 
 <body id="page-top">
     <div id="wrapper">
-        <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content-wrapper" class="d-flex flex-column bg-light">
             <div id="content">
                 
-                <nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow d-flex align-items-center justify-content-between">
-                    <div class="ml-3">
-                        <a href="index.php" class="btn btn-sm btn-primary shadow-sm mr-2">
+                <nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow d-flex align-items-center justify-content-between px-4">
+                    <div>
+                        <a href="index.php" class="btn btn-sm btn-primary shadow-sm">
                             <i class="fas fa-arrow-left fa-sm"></i> Dashboard
                         </a>
-                        <span class="h5 mb-0 text-gray-800 d-none d-md-inline-block">Detail Analisis Insiden</span>
+                        <span class="ml-3 h5 mb-0 text-gray-800 font-weight-bold">Analisis Insiden #<?= $id; ?></span>
                     </div>
-                    <div class="mr-3 text-muted small font-weight-bold">
-                        <i class="fas fa-clock"></i> Last Update: <?= $last_update; ?> (WIB)
+                    <div class="text-muted small">
+                        <i class="fas fa-clock"></i> <span class="font-weight-bold"><?= $last_update; ?> WIB</span>
                     </div>
                 </nav>
 
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-2 bg-dark text-white">
-                                    <h6 class="m-0 font-weight-bold"><i class="fas fa-laptop"></i> Informasi Perangkat</h6>
+                <div class="container-fluid full-screen-container">
+                    <div class="row main-row">
+                        
+                        <div class="col-lg-4 mb-3 mb-lg-0">
+                            <div class="card shadow border-0">
+                                <div class="card-header py-3 bg-dark d-flex align-items-center">
+                                    <h6 class="m-0 font-weight-bold text-white"><i class="fas fa-laptop mr-2"></i> Detail Perangkat</h6>
                                 </div>
-                                <div class="card-body">
-                                    <table class="table table-borderless table-detail">
-                                        <tr><td width="40%"><strong>Status Log</strong></td><td>: 
-                                            <span class="badge badge-<?= ($data['status']=='Resolved')?'success':'secondary'; ?>"><?= $data['status']; ?></span>
+                                <div class="card-body d-flex flex-column">
+                                    <table class="table table-borderless table-detail mb-auto">
+                                        <tr><td width="45%"><strong>Status Log</strong></td><td>: 
+                                            <span class="badge badge-<?= ($data['status']=='Resolved')?'success':'secondary'; ?> px-3"><?= $data['status']; ?></span>
                                         </td></tr>
                                         <tr><td><strong>Kategori</strong></td><td>: 
-                                            <span class="badge badge-<?= ($data['kategori']=='VPN')?'warning':'danger'; ?>"><?= $data['kategori']; ?></span>
+                                            <span class="badge badge-<?= ($data['kategori']=='VPN')?'warning':'danger'; ?> px-3"><?= $data['kategori']; ?></span>
                                         </td></tr>
-                                        <tr><td><strong>Waktu Log</strong></td><td>: <?= $data['waktu']; ?></td></tr>
-                                        <tr><td><strong>IP Address</strong></td><td>: <code class="text-primary"><?= $data['ip_address']; ?></code></td></tr>
+                                        <tr><td><strong>IP Address</strong></td><td>: <code class="text-primary h6"><?= $data['ip_address']; ?></code></td></tr>
                                         <tr><td><strong>MAC Address</strong></td><td>: <code><?= $data['mac_address']; ?></code></td></tr>
                                         <tr><td><strong>Hostname</strong></td><td>: <span class="text-dark font-weight-bold"><?= $data['hostname'] ?: '-'; ?></span></td></tr>
-                                        <tr><td><strong>Tujuan/Domain</strong></td><td>: <span class="text-danger small"><?= $data['dst_address']; ?></span></td></tr>
+                                        <tr><td><strong>Waktu Terdeteksi</strong></td><td>: <span class="text-muted"><?= $data['waktu']; ?></span></td></tr>
                                     </table>
                                     
                                     <div class="mt-4">
                                         <?php if($data['status'] == 'Pending'): ?>
                                             <a href="mikrotik_action.php?action=block&mac=<?= $data['mac_address']; ?>&ip=<?= $data['ip_address']; ?>&id=<?= $data['id']; ?>" 
-                                               class="btn btn-danger btn-block btn-lg shadow animate-pulse" 
-                                               onclick="return confirm('Sistem akan mengirim perintah blokir ke MikroTik secara otomatis. Lanjutkan?')">
-                                                <i class="fas fa-shield-alt"></i> EKSEKUSI BLOKIR SEKARANG
+                                               class="btn btn-danger btn-block btn-lg shadow-lg py-3 animate-pulse" 
+                                               onclick="return confirm('Eksekusi blokir otomatis via MikroTik?')">
+                                                <i class="fas fa-shield-alt mr-2"></i> BLOKIR PERANGKAT
                                             </a>
-                                            <p class="text-center small text-muted mt-2 font-italic">*Perangkat akan diputus koneksinya melalui API MikroTik</p>
                                         <?php else: ?>
-                                            <div class="alert alert-success text-center mb-3 shadow-sm">
-                                                <i class="fas fa-check-circle"></i> Perangkat sedang dalam kondisi terblokir.
+                                            <div class="alert alert-success text-center border-0 shadow-sm">
+                                                <i class="fas fa-check-circle"></i> Akses Terblokir
                                             </div>
                                             <a href="mikrotik_action.php?action=unblock&mac=<?= $data['mac_address']; ?>&ip=<?= $data['ip_address']; ?>&id=<?= $data['id']; ?>" 
                                                class="btn btn-success btn-block btn-lg shadow" 
-                                               onclick="return confirm('Apakah Anda yakin ingin membuka kembali akses internet untuk perangkat ini?')">
-                                                <i class="fas fa-unlock"></i> BUKA BLOKIR (UNBLOCK)
+                                               onclick="return confirm('Buka kembali akses internet?')">
+                                                <i class="fas fa-unlock mr-2"></i> BUKA BLOKIR
                                             </a>
-                                            <p class="text-center small text-muted mt-2 font-italic">*Aturan blokir pada perangkat ini akan dihapus dari MikroTik</p>
                                         <?php endif; ?>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-7">
-                            <div class="card shadow mb-4 border-left-success">
-                                <div class="card-header py-2 bg-success text-white">
-                                    <h6 class="m-0 font-weight-bold"><i class="fas fa-microchip"></i> Analisis & Mitigasi Manual</h6>
+                        <div class="col-lg-8">
+                            <div class="d-flex flex-column h-100">
+                                <div class="card shadow border-left-danger mb-3" style="height: auto !important;">
+                                    <div class="card-body py-3">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col mr-2">
+                                                <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">Target Akses / Destination</div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-900"><?= $data['dst_address']; ?></div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <i class="fas fa-skull-crossbones fa-2x text-gray-200"></i>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <h6 class="font-weight-bold text-primary">Deskripsi Kejadian:</h6>
-                                    <p class="text-gray-800"><?= $penjelasan; ?></p>
-                                    
-                                    <hr>
-                                    
-                                    <h6 class="font-weight-bold text-primary">Rencana Tindakan (Manual):</h6>
-                                    <div class="alert alert-light border shadow-sm">
-                                        <?= $mitigasi; ?>
-                                    </div>
 
-                                    <hr>
-                                    
-                                    <h6 class="font-weight-bold text-primary">MikroTik Command Line (CLI):</h6>
-                                    <p class="small text-muted">Gunakan perintah ini jika ingin eksekusi manual via Terminal Winbox:</p>
-                                    <div class="bg-dark p-3 rounded position-relative">
-                                        <code id="mikrotikScript" class="text-white small"><?= $mikrotik_script; ?></code>
+                                <div class="card shadow border-0">
+                                    <div class="card-header py-3 bg-success text-white">
+                                        <h6 class="m-0 font-weight-bold"><i class="fas fa-shield-virus mr-2"></i> Analisis Sistem & Mitigasi</h6>
                                     </div>
-                                    <button class="btn btn-sm btn-outline-dark mt-2" onclick="copyToClipboard()">
-                                        <i class="fas fa-copy"></i> Salin Perintah CLI
-                                    </button>
+                                    <div class="card-body">
+                                        <div class="mb-4">
+                                            <label class="font-weight-bold text-primary small text-uppercase">Informasi Kejadian</label>
+                                            <div class="p-3 bg-light rounded text-dark" style="font-size: 1.1rem; line-height: 1.6;">
+                                                <?= $penjelasan; ?>
+                                            </div>
+                                        </div>
+                                        
+                                        <hr>
+                                        
+                                        <div>
+                                            <label class="font-weight-bold text-success small text-uppercase">Rencana Tindakan Lanjutan</label>
+                                            <div class="alert alert-light border shadow-sm p-4 mt-2">
+                                                <div class="text-dark" style="font-size: 1rem; line-height: 1.8;">
+                                                    <?= $mitigasi; ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer bg-white py-3 text-center text-muted small">
+                                        <i class="fas fa-info-circle"></i> Gunakan panel ini untuk meninjau detail insiden sebelum melakukan eksekusi pada perangkat.
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
-                </div> 
-            </div>
+                </div> </div>
         </div>
     </div>
-
-    <script>
-    function copyToClipboard() {
-        var copyText = document.getElementById("mikrotikScript").innerText;
-        var textArea = document.createElement("textarea");
-        textArea.value = copyText;
-        document.body.appendChild(textArea);
-        textArea.select();
-        try {
-            document.execCommand('copy');
-            alert("Script CLI berhasil disalin!");
-        } catch (err) {
-            alert("Gagal menyalin script.");
-        }
-        document.body.removeChild(textArea);
-    }
-    </script>
 </body>
 </html>

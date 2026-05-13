@@ -83,7 +83,7 @@ $last_update = date('d M Y | H:i:s');
                                 <table class="table table-bordered table-sm table-striped" id="dataTable" width="100%" cellspacing="0">
                                     <thead class="bg-gray-100 text-center">
                                         <tr>
-                                            <th>#</th> <th>MAC Address</th>
+                                            <th>No</th> <th>MAC Address</th>
                                             <th>Hostname</th>
                                             <th>IP Digunakan</th>
                                             <th>Total</th>

@@ -132,7 +132,7 @@ $last_update = date('d M Y | H:i:s');
                                         <table class="table table-bordered table-sm table-striped text-center">
                                             <thead class="bg-gray-100">
                                                 <tr>
-                                                    <th>#</th> <th>Waktu</th>
+                                                    <th>No</th> <th>Waktu</th>
                                                     <th>IP Address</th>
                                                     <th>Host / MAC</th>
                                                     <th>Kategori</th>
