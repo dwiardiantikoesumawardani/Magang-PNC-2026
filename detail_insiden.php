@@ -48,32 +48,37 @@ $last_update = date('d M Y | H:i:s');
             display: flex;
             flex-direction: column;
         }
-        /* Mengatur agar container fluid mengambil sisa ruang */
+
+        /* ===== PADDING UTAMA (dipertahankan sesuai keinginan Anda) ===== */
         .full-screen-container {
             flex: 1;
             display: flex;
             flex-direction: column;
-            padding: 15px !important;
-            overflow-y: auto; /* Agar tetap bisa scroll jika konten overload */
+            padding: 8px !important;
+            overflow-y: auto;
         }
-        .main-row {
-            flex: 1;
-        }
+        .card-body        { padding: 0.4rem !important; }
+        .card-header      { padding: 0.25rem 0.6rem !important; }
+        .card-footer      { padding: 0.25rem 0.6rem !important; }
+
+        /* ===== ELEMEN LAIN ===== */
         .card {
-            height: 100%; /* Membuat card memanjang ke bawah */
             display: flex;
             flex-direction: column;
         }
-        .card-body {
-            flex: 1;
-        }
+        .card-body { flex: 1; }
+
         .topbar { height: 3.5rem !important; }
-        .table-detail td { padding: 12px 0; border-bottom: 1px solid #f8f9fc; }
-        
+
+        .table-detail td {
+            padding: 8px 0;
+            border-bottom: 1px solid #f8f9fc;
+        }
+
         .animate-pulse { animation: pulse 2s infinite; }
         @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.01); }
+            0%   { transform: scale(1); }
+            50%  { transform: scale(1.01); }
             100% { transform: scale(1); }
         }
     </style>
@@ -84,7 +89,7 @@ $last_update = date('d M Y | H:i:s');
         <div id="content-wrapper" class="d-flex flex-column bg-light">
             <div id="content">
                 
-                <nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow d-flex align-items-center justify-content-between px-4">
+                <nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow d-flex align-items-center justify-content-between px-3">
                     <div>
                         <a href="index.php" class="btn btn-sm btn-primary shadow-sm">
                             <i class="fas fa-arrow-left fa-sm"></i> Dashboard
@@ -99,13 +104,13 @@ $last_update = date('d M Y | H:i:s');
                 <div class="container-fluid full-screen-container">
                     <div class="row main-row">
                         
-                        <div class="col-lg-4 mb-3 mb-lg-0">
-                            <div class="card shadow border-0">
-                                <div class="card-header py-3 bg-dark d-flex align-items-center">
+                        <div class="col-lg-4 mb-2 mb-lg-0">
+                            <div class="card shadow border-0 h-100">
+                                <div class="card-header bg-dark d-flex align-items-center">
                                     <h6 class="m-0 font-weight-bold text-white"><i class="fas fa-laptop mr-2"></i> Detail Perangkat</h6>
                                 </div>
-                                <div class="card-body d-flex flex-column">
-                                    <table class="table table-borderless table-detail mb-auto">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <table class="table table-borderless table-detail mb-0">
                                         <tr><td width="45%"><strong>Status Log</strong></td><td>: 
                                             <span class="badge badge-<?= ($data['status']=='Resolved')?'success':'secondary'; ?> px-3"><?= $data['status']; ?></span>
                                         </td></tr>
@@ -118,19 +123,19 @@ $last_update = date('d M Y | H:i:s');
                                         <tr><td><strong>Waktu Terdeteksi</strong></td><td>: <span class="text-muted"><?= $data['waktu']; ?></span></td></tr>
                                     </table>
                                     
-                                    <div class="mt-4">
+                                    <div class="mt-3">
                                         <?php if($data['status'] == 'Pending'): ?>
                                             <a href="mikrotik_action.php?action=block&mac=<?= $data['mac_address']; ?>&ip=<?= $data['ip_address']; ?>&id=<?= $data['id']; ?>" 
-                                               class="btn btn-danger btn-block btn-lg shadow-lg py-3 animate-pulse" 
+                                               class="btn btn-danger btn-block btn-lg shadow-lg py-2 animate-pulse" 
                                                onclick="return confirm('Eksekusi blokir otomatis via MikroTik?')">
                                                 <i class="fas fa-shield-alt mr-2"></i> BLOKIR PERANGKAT
                                             </a>
                                         <?php else: ?>
-                                            <div class="alert alert-success text-center border-0 shadow-sm">
+                                            <div class="alert alert-success text-center border-0 shadow-sm py-2 mb-2">
                                                 <i class="fas fa-check-circle"></i> Akses Terblokir
                                             </div>
                                             <a href="mikrotik_action.php?action=unblock&mac=<?= $data['mac_address']; ?>&ip=<?= $data['ip_address']; ?>&id=<?= $data['id']; ?>" 
-                                               class="btn btn-success btn-block btn-lg shadow" 
+                                               class="btn btn-success btn-block btn-lg shadow py-2" 
                                                onclick="return confirm('Buka kembali akses internet?')">
                                                 <i class="fas fa-unlock mr-2"></i> BUKA BLOKIR
                                             </a>
@@ -141,53 +146,54 @@ $last_update = date('d M Y | H:i:s');
                         </div>
 
                         <div class="col-lg-8">
-                            <div class="d-flex flex-column h-100">
-                                <div class="card shadow border-left-danger mb-3" style="height: auto !important;">
-                                    <div class="card-body py-3">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">Target Akses / Destination</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-900"><?= $data['dst_address']; ?></div>
-                                            </div>
-                                            <div class="col-auto">
-                                                <i class="fas fa-skull-crossbones fa-2x text-gray-200"></i>
+                            
+                            <div class="card shadow border-left-danger mb-2">
+                                <div class="card-body py-2">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">Target Akses / Destination</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-900"><?= $data['dst_address']; ?></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-skull-crossbones fa-2x text-gray-200"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card shadow border-0">
+                                <div class="card-header bg-success text-white">
+                                    <h6 class="m-0 font-weight-bold"><i class="fas fa-shield-virus mr-2"></i> Analisis Sistem & Mitigasi</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        <label class="font-weight-bold text-primary small text-uppercase mb-1">Informasi Kejadian</label>
+                                        <div class="p-2 bg-light rounded text-dark" style="line-height: 1.5;">
+                                            <?= $penjelasan; ?>
+                                        </div>
+                                    </div>
+                                    
+                                    <hr class="my-2">
+                                    
+                                    <div>
+                                        <label class="font-weight-bold text-success small text-uppercase mb-1">Rencana Tindakan Lanjutan</label>
+                                        <div class="alert alert-light border shadow-sm p-3 mt-1 mb-0">
+                                            <div class="text-dark" style="line-height: 1.6;">
+                                                <?= $mitigasi; ?>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="card shadow border-0">
-                                    <div class="card-header py-3 bg-success text-white">
-                                        <h6 class="m-0 font-weight-bold"><i class="fas fa-shield-virus mr-2"></i> Analisis Sistem & Mitigasi</h6>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="mb-4">
-                                            <label class="font-weight-bold text-primary small text-uppercase">Informasi Kejadian</label>
-                                            <div class="p-3 bg-light rounded text-dark" style="font-size: 1.1rem; line-height: 1.6;">
-                                                <?= $penjelasan; ?>
-                                            </div>
-                                        </div>
-                                        
-                                        <hr>
-                                        
-                                        <div>
-                                            <label class="font-weight-bold text-success small text-uppercase">Rencana Tindakan Lanjutan</label>
-                                            <div class="alert alert-light border shadow-sm p-4 mt-2">
-                                                <div class="text-dark" style="font-size: 1rem; line-height: 1.8;">
-                                                    <?= $mitigasi; ?>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-footer bg-white py-3 text-center text-muted small">
-                                        <i class="fas fa-info-circle"></i> Gunakan panel ini untuk meninjau detail insiden sebelum melakukan eksekusi pada perangkat.
-                                    </div>
+                                <div class="card-footer bg-white text-center text-muted small">
+                                    <i class="fas fa-info-circle"></i> Gunakan panel ini untuk meninjau detail insiden sebelum melakukan eksekusi pada perangkat.
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                </div> </div>
+                </div> 
+
+            </div>
         </div>
     </div>
 </body>
