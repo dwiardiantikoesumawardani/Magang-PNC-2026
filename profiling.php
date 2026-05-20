@@ -34,9 +34,15 @@ $list_ip = mysqli_query($conn, "SELECT DISTINCT ip_address, hostname FROM logs")
                 <div class="sidebar-brand-text mx-3">NetMonitor</div>
             </a>
             <hr class="sidebar-divider my-0">
-            <li class="nav-item"><a class="nav-link" href="index.php"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="riwayat.php"><i class="fas fa-fw fa-table"></i><span>Riwayat Insiden</span></a></li>
-            <li class="nav-item active"><a class="nav-link" href="profiling.php"><i class="fas fa-fw fa-search"></i><span>Profiling User</span></a></li>
+              <li class="nav-item active">
+                <a class="nav-link" style="padding: 0.5rem 1rem;" href="index.php"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="padding: 0.5rem 1rem;" href="riwayat.php"><i class="fas fa-fw fa-table"></i><span>Riwayat Insiden</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="padding: 0.5rem 1rem;" href="profil_user.php"><i class="fas fa-fw fa-user"></i><span>Profiling per User</span></a>
+            </li>
         </ul>
 
         <div id="content-wrapper" class="d-flex flex-column">

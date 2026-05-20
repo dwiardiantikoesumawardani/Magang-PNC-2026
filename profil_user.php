@@ -14,7 +14,8 @@ $query = mysqli_query($conn, "SELECT
     GROUP BY mac_address 
     ORDER BY total_insiden DESC");
 
-// 4. Last Update
+// SET WAKTU KE WIB (Asia/Jakarta) untuk Last Update
+date_default_timezone_set('Asia/Jakarta');
 $last_update = date('d M Y | H:i:s');
 ?>
 
@@ -31,7 +32,16 @@ $last_update = date('d M Y | H:i:s');
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
     
     <style>
-        /* 3. PENYESUAIAN PADDING */
+        /* ===== FIXING SIDEBAR MELEBAR (FLEXBOX BUG) ===== */
+        #accordionSidebar {
+            flex-shrink: 0 !important; /* Mengunci lebar sidebar agar tidak melar akibat dorongan tabel */
+        }
+        
+        #content-wrapper {
+            min-width: 0; /* Memaksa area konten membuat scrollbar internal pada tabel alih-alih merusak ukuran sidebar */
+        }
+
+        /* PENYESUAIAN PADDING */
         .container-fluid { padding-top: 10px !important; }
         .card-body { padding: 0.75rem !important; }
         .table td, .table th { padding: 0.5rem !important; vertical-align: middle !important; }
@@ -49,30 +59,36 @@ $last_update = date('d M Y | H:i:s');
                 <div class="sidebar-brand-text mx-3">NetMonitor</div>
             </a>
             <hr class="sidebar-divider my-0">
+            
             <li class="nav-item">
-                <a class="nav-link" href="index.php"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a>
+                <a class="nav-link" style="padding: 0.5rem 1rem;" href="index.php"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a>
             </li>
+            
             <li class="nav-item">
-                <a class="nav-link" href="riwayat.php"><i class="fas fa-fw fa-table"></i><span>Riwayat Insiden</span></a>
+                <a class="nav-link" style="padding: 0.5rem 1rem;" href="riwayat.php"><i class="fas fa-fw fa-table"></i><span>Riwayat Insiden</span></a>
             </li>
-            <hr class="sidebar-divider">
-            <div class="sidebar-heading">Analisis Lanjutan</div>
+            
             <li class="nav-item active">
-                <a class="nav-link" href="profil_user.php"><i class="fas fa-fw fa-user"></i><span>Profiling per User</span></a>
+                <a class="nav-link" style="padding: 0.5rem 1rem;" href="profil_user.php"><i class="fas fa-fw fa-user"></i><span>Profiling per User</span></a>
             </li>
-            <hr class="sidebar-divider d-none d-md-block">
+            
         </ul>
-
         <div id="content-wrapper" class="d-flex flex-column">
             <div id="content"> 
 
-                <nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow d-flex align-items-center justify-content-between">
-                    <h1 class="h5 mb-0 text-gray-800 ml-3">Profiling User & Device</h1>
-                    <div class="mr-3 text-muted small font-weight-bold">
-                        <i class="fas fa-sync-alt fa-spin mr-1"></i> Last Update: <?= $last_update; ?>
+                <nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow d-flex align-items-center justify-content-between px-4">
+                    
+                    <div class="d-flex align-items-center">
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <h1 class="h5 mb-0 text-gray-800">Profiling User & Device</h1>
+                    </div>
+
+                    <div class="text-muted small font-weight-bold">
+                        <i class="fas fa-sync-alt fa-sm mr-1"></i> Last Update: <strong><?= $last_update; ?> WIB</strong>
                     </div>
                 </nav>
-
                 <div class="container-fluid">
                     <div class="card shadow mb-4">
                         <div class="card-header py-2 bg-primary">
@@ -83,7 +99,8 @@ $last_update = date('d M Y | H:i:s');
                                 <table class="table table-bordered table-sm table-striped" id="dataTable" width="100%" cellspacing="0">
                                     <thead class="bg-gray-100 text-center">
                                         <tr>
-                                            <th>No</th> <th>MAC Address</th>
+                                            <th>No</th> 
+                                            <th>MAC Address</th>
                                             <th>Hostname</th>
                                             <th>IP Digunakan</th>
                                             <th>Total</th>
@@ -129,8 +146,10 @@ $last_update = date('d M Y | H:i:s');
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="css/sb-admin-2.min.js"></script> <script src="vendor/datatables/jquery.dataTables.min.js"></script>
     <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    
     <script>
         $(document).ready(function() {
             $('#dataTable').DataTable({

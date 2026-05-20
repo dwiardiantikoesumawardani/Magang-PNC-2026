@@ -18,6 +18,15 @@ $last_update = date('d M Y | H:i:s');
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
     <style>
+    /* ===== FIXING SIDEBAR MELEBAR (FLEBOX BUG) ===== */
+    #accordionSidebar {
+        flex-shrink: 0 !important; /* Mengunci lebar sidebar agar tidak melar akibat dorongan tabel */
+    }
+    
+    #content-wrapper {
+        min-width: 0; /* Memaksa area konten membuat scrollbar internal pada tabel alih-alih merusak ukuran sidebar */
+    }
+
     /* Membuat area search dan filter sejajar ke kanan */
     #dataTable_filter {
         display: flex;
@@ -28,7 +37,7 @@ $last_update = date('d M Y | H:i:s');
     #dataTable_filter label {
         margin-bottom: 0; 
     }
-    /* Memberi jarak yang pas antara kotak Search dan tombol Filter (direnggangkan sedikit) */
+    /* Memberi jarak yang pas antara kotak Search dan tombol Filter */
     #filter-dropdown {
         margin-left: 15px; 
     }
@@ -41,37 +50,40 @@ $last_update = date('d M Y | H:i:s');
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon"><i class="fas fa-shield-alt"></i></div>
-                <div class="sidebar-brand-text mx-3">NetMonitor <sup>App</sup></div>
+                <div class="sidebar-brand-text mx-3">NetMonitor </div>
             </a>
             <hr class="sidebar-divider my-0">
+            
             <li class="nav-item">
-                <a class="nav-link" href="index.php"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a>
+                <a class="nav-link" style="padding: 0.5rem 1rem;" href="index.php"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a>
             </li>
+            
             <li class="nav-item active">
-                <a class="nav-link" href="riwayat.php"><i class="fas fa-fw fa-table"></i><span>Riwayat Insiden</span></a>
+                <a class="nav-link" style="padding: 0.5rem 1rem;" href="riwayat.php"><i class="fas fa-fw fa-table"></i><span>Riwayat Insiden</span></a>
             </li>
-            <hr class="sidebar-divider d-none d-md-block">
-            <hr class="sidebar-divider">
-
-            <div class="sidebar-heading">Analisis Lanjutan</div>
-
+            
             <li class="nav-item">
-                <a class="nav-link" href="profil_user.php">
-                    <i class="fas fa-fw fa-user"></i>
-                    <span>Profiling per User</span>
-                </a>
+                <a class="nav-link" style="padding: 0.5rem 1rem;" href="profil_user.php"><i class="fas fa-fw fa-user"></i><span>Profiling per User</span></a>
             </li>
-        </ul>
 
+        </ul>
         <div id="content-wrapper" class="d-flex flex-column">
             <div id="content">
+                
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow d-flex justify-content-between align-items-center px-4">
-                    <h1 class="h3 mb-0 text-gray-800">Riwayat Keseluruhan Data</h1>
+                    
+                    <div class="d-flex align-items-center">
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <h1 class="h3 mb-0 text-gray-800">Riwayat Keseluruhan Data</h1>
+                    </div>
+                    
                     <div class="text-muted" style="font-size: 0.9rem;">
                         <i class="fas fa-sync-alt fa-sm mr-1"></i> Last Update: <strong><?= $last_update; ?> WIB</strong>
                     </div>
-                </nav>
 
+                </nav>
                 <div class="container-fluid">
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
