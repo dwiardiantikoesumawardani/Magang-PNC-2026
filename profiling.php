@@ -43,6 +43,9 @@ $list_ip = mysqli_query($conn, "SELECT DISTINCT ip_address, hostname FROM logs")
             <li class="nav-item">
                 <a class="nav-link" style="padding: 0.5rem 1rem;" href="profil_user.php"><i class="fas fa-fw fa-user"></i><span>Profiling per User</span></a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" style="padding: 0.5rem 1rem;" href="behavior_user.php"><i class="fas fa-fw fa-chart-pie"></i><span>User Behavior</span></a>
+            </li>
         </ul>
 
         <div id="content-wrapper" class="d-flex flex-column">
