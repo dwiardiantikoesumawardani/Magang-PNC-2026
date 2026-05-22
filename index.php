@@ -162,20 +162,19 @@ $last_update = date('d M Y | H:i:s');
                                             </thead>
                                             <tbody>
                                                 <?php
-                                                // Konfigurasi Pagination
-                                                $batas = 5;
-                                                $halaman = isset($_GET['halaman']) ? (int)$_GET['halaman'] : 1;
-                                                $halaman_awal = ($halaman > 1) ? ($halaman * $batas) - $batas : 0;
+                                            // Konfigurasi Pagination
+                                            $batas = 5;
+                                            $halaman = isset($_GET['halaman']) ? (int)$_GET['halaman'] : 1;
+                                            $halaman_awal = ($halaman > 1) ? ($halaman * $batas) - $batas : 0;
 
-                                                // Mengambil jumlah total data HARI INI
-                                                $query_jumlah_data = mysqli_query($conn, "SELECT COUNT(*) as total FROM logs WHERE DATE(waktu) = CURDATE()");
-                                                $jumlah_data = mysqli_fetch_assoc($query_jumlah_data)['total'];
-                                                $total_halaman = ceil($jumlah_data / $batas);
+                                            // REVISI 1: Mengambil jumlah total data HARI INI (Hanya VPN dan JUDOL)
+                                            $query_jumlah_data = mysqli_query($conn, "SELECT COUNT(*) as total FROM logs WHERE DATE(waktu) = CURDATE() AND kategori IN ('VPN', 'JUDOL')");
+                                            $jumlah_data = mysqli_fetch_assoc($query_jumlah_data)['total'];
+                                            $total_halaman = ceil($jumlah_data / $batas);
 
-                                                // Query menampilkan data HARI INI dengan limit 5
-                                                $query = mysqli_query($conn, "SELECT * FROM logs WHERE DATE(waktu) = CURDATE() ORDER BY id DESC LIMIT $halaman_awal, $batas");
-                                                
-                                                $no = $halaman_awal + 1;
+                                            // REVISI 2: Query menampilkan data HARI INI dengan limit 5 (Hanya VPN dan JUDOL)
+                                            $query = mysqli_query($conn, "SELECT * FROM logs WHERE DATE(waktu) = CURDATE() AND kategori IN ('VPN', 'JUDOL') ORDER BY id DESC LIMIT $halaman_awal, $batas");
+                                            $no = $halaman_awal + 1;
                                                 
                                                 if(mysqli_num_rows($query) > 0) {
                                                     while($row = mysqli_fetch_assoc($query)):
