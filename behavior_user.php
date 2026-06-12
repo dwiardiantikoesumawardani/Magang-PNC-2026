@@ -264,7 +264,7 @@ include 'includes/header.php';
 
                                                                 <?php if($row['kategori'] == 'DOWNLOAD'): ?>
                                                                 <div class="alert alert-warning">
-                                                                    Threshold transfer data terlampaui (>30 MB per koneksi TCP aktif).
+                                                                    Threshold transfer data terlampaui (>250 MB per koneksi TCP aktif).
                                                                 </div>
                                                                 <?php endif; ?>
 
