@@ -1,0 +1,3880 @@
+OKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+^C^C^CPHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+^C^C^CPHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+^C^C^C^C^C^C^CPHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+^C^C^C^CPHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+^C^C^C^C^C^C^C^C^CPHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+^C^C^CPHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+^COK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+^CPHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+^CPHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_close_session.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+
+Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'admin'@'localhost' (using password: YES) in C:\xampp\htdocs\monitoring\koneksi.php:3
+Stack trace:
+#0 C:\xampp\htdocs\monitoring\koneksi.php(3): mysqli_connect('localhost', 'admin', Object(SensitiveParameterValue), 'db_monitoring')
+#1 C:\xampp\htdocs\monitoring\cron_alert_sosmed.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\monitoring\koneksi.php on line 3
+ 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 
+OK 

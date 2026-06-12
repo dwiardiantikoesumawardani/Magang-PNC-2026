@@ -1,4 +1,7 @@
 <?php
+$page_title   = "Detail Insiden";
+$page_heading = "Analisis Insiden";
+
 include 'koneksi.php';
 
 // SET WAKTU KE WIB (Asia/Jakarta)
@@ -16,29 +19,69 @@ if(!$data) { echo "Data tidak ditemukan!"; exit; }
 
 // Logika Penjelasan & Mitigasi
 $penjelasan = "";
-$mitigasi = "";
+$mitigasi   = "";
 
-if($data['kategori'] == 'VPN') {
-    $penjelasan = "Pengguna terdeteksi menggunakan protokol enkripsi (VPN) untuk menyembunyikan identitas trafik atau mencoba melewati filter keamanan jaringan.";
-    $mitigasi = "1. Blokir port standar VPN.<br>2. Gunakan Address List untuk isolasi IP.<br>3. Terapkan kebijakan Drop pada Raw Firewall.";
-} else {
-    $penjelasan = "Sistem mendeteksi upaya akses menuju domain atau alamat IP yang terdaftar dalam blacklist perjudian online (JUDOL).";
-    $mitigasi = "1. Redirect DNS ke halaman isolasi.<br>2. Masukkan MAC Address ke daftar blokir permanen.<br>3. Lakukan pembersihan cache browser pada perangkat user.";
+switch(strtoupper($data['kategori'])) {
+
+    case 'VPN':
+        $penjelasan =
+            "Perangkat terdeteksi menggunakan layanan Virtual Private Network (VPN) yang mengenkripsi lalu lintas jaringan dan dapat digunakan untuk menyembunyikan aktivitas pengguna atau melewati kebijakan keamanan jaringan.";
+
+        $mitigasi =
+            "1. Blokir endpoint atau port VPN yang terdeteksi.<br>
+             2. Tambahkan IP ke Address List monitoring.<br>
+             3. Terapkan firewall filtering terhadap trafik VPN yang tidak diizinkan.<br>
+             4. Lakukan verifikasi kebutuhan penggunaan VPN oleh pengguna.";
+    break;
+
+    case 'JUDOL':
+        $penjelasan =
+            "Sistem mendeteksi akses menuju domain, IP, atau layanan yang terindikasi terkait aktivitas perjudian online dan termasuk dalam daftar pemantauan keamanan.";
+
+        $mitigasi =
+            "1. Blokir domain/IP tujuan pada firewall atau DNS.<br>
+             2. Tambahkan perangkat ke daftar pemantauan khusus.<br>
+             3. Edukasi pengguna terkait kebijakan penggunaan internet.<br>
+             4. Lakukan audit aktivitas lanjutan apabila diperlukan.";
+    break;
+
+    case 'DOWNLOAD':
+        $penjelasan =
+            "Perangkat terdeteksi melakukan aktivitas pengunduhan file dari internet. Aktivitas ini dapat berupa pengunduhan aplikasi, arsip, dokumen, media, maupun executable yang berpotensi membawa malware atau konten tidak sesuai kebijakan perusahaan.";
+
+        $mitigasi =
+            "1. Verifikasi sumber file yang diunduh.<br>
+             2. Lakukan pemindaian antivirus pada file hasil unduhan.<br>
+             3. Batasi pengunduhan file executable dari sumber tidak terpercaya.<br>
+             4. Monitor aktivitas download berulang dengan ukuran besar atau mencurigakan.";
+    break;
+
+    case 'SOSMED':
+        $penjelasan =
+            "Perangkat terdeteksi mengakses layanan media sosial. Aktivitas ini dapat mempengaruhi produktivitas kerja dan berpotensi menjadi jalur penyebaran phishing, social engineering, maupun kebocoran informasi organisasi.";
+
+        $mitigasi =
+            "1. Terapkan kebijakan akses media sosial sesuai kebutuhan organisasi.<br>
+             2. Lakukan edukasi keamanan informasi kepada pengguna.<br>
+             3. Pantau aktivitas akses media sosial yang berlebihan.<br>
+             4. Blokir platform tertentu apabila tidak mendukung kebutuhan operasional.";
+    break;
+
+    default:
+        $penjelasan =
+            "Aktivitas jaringan terdeteksi dan memerlukan analisis lebih lanjut untuk menentukan tingkat risiko keamanan.";
+
+        $mitigasi =
+            "1. Lakukan investigasi terhadap tujuan akses.<br>
+             2. Verifikasi aktivitas pengguna.<br>
+             3. Pantau perangkat untuk mendeteksi aktivitas lanjutan.";
 }
 
 $last_update = date('d M Y | H:i:s');
+
+include 'includes/header.php';
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Detail Analisis - NetMonitor</title>
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <style>
         /* Membuat container utama memenuhi layar */
         html, body, #wrapper, #content-wrapper, #content {
@@ -107,10 +150,7 @@ $last_update = date('d M Y | H:i:s');
             100% { transform: scale(1); }
         }
     </style>
-</head>
 
-<body id="page-top">
-    <div id="wrapper">
         <div id="content-wrapper" class="d-flex flex-column bg-light">
             <div id="content">
                 
@@ -132,6 +172,27 @@ $last_update = date('d M Y | H:i:s');
                         <div class="col-lg-4 p-1 kolom-kiri">
                             <div class="card shadow border-0">
                                 <div class="card-header bg-dark d-flex align-items-center">
+                                    <?php
+                                    $badgeKategori = 'secondary';
+
+                                    switch(strtoupper($data['kategori'])) {
+                                        case 'VPN':
+                                            $badgeKategori = 'warning';
+                                            break;
+
+                                        case 'JUDOL':
+                                            $badgeKategori = 'danger';
+                                            break;
+
+                                        case 'DOWNLOAD':
+                                            $badgeKategori = 'success';
+                                            break;
+
+                                        case 'SOSMED':
+                                            $badgeKategori = 'primary';
+                                            break;
+                                    }
+                                    ?>
                                     <h6 class="m-0 font-weight-bold text-white"><i class="fas fa-laptop mr-2"></i> Detail Perangkat</h6>
                                 </div>
                                 <div class="card-body d-flex flex-column justify-content-between">
@@ -140,8 +201,9 @@ $last_update = date('d M Y | H:i:s');
                                             <span class="badge badge-<?= ($data['status']=='Resolved')?'success':'secondary'; ?> px-3"><?= $data['status']; ?></span>
                                         </td></tr>
                                         <tr><td><strong>Kategori</strong></td><td>: 
-                                            <span class="badge badge-<?= ($data['kategori']=='VPN')?'warning':'danger'; ?> px-3"><?= $data['kategori']; ?></span>
-                                        </td></tr>
+                                        <span class="badge badge-<?= $badgeKategori; ?> px-3">
+                                            <?= strtoupper($data['kategori']); ?>
+                                        </span>                                        </td></tr>
                                         <tr><td><strong>IP Address</strong></td><td>: <code class="text-primary h6"><?= $data['ip_address']; ?></code></td></tr>
                                         <tr><td><strong>MAC Address</strong></td><td>: <code><?= $data['mac_address']; ?></code></td></tr>
                                         <tr><td><strong>Hostname</strong></td><td>: <span class="text-dark font-weight-bold"><?= $data['hostname'] ?: '-'; ?></span></td></tr>
@@ -180,14 +242,52 @@ $last_update = date('d M Y | H:i:s');
                                             <div class="h5 mb-0 font-weight-bold text-gray-900"><?= $data['dst_address']; ?></div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-skull-crossbones fa-2x text-gray-200"></i>
-                                        </div>
+                                        <?php
+                                        $icon = "fa-globe";
+
+                                        switch(strtoupper($data['kategori'])) {
+                                            case 'VPN':
+                                                $icon = "fa-user-secret";
+                                                break;
+                                            case 'JUDOL':
+                                                $icon = "fa-dice";
+                                                break;
+                                            case 'DOWNLOAD':
+                                                $icon = "fa-download";
+                                                break;
+                                            case 'SOSMED':
+                                                $icon = "fa-comments";
+                                                break;
+                                        }
+                                        ?>
+                                        <i class="fas <?= $icon ?> fa-2x text-gray-200"></i>                                        </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="card shadow border-0 card-analisis">
-                                <div class="card-header bg-success text-white">
+                           <?php
+                            $headerColor = 'bg-secondary';
+
+                            switch(strtoupper($data['kategori'])) {
+
+                                case 'VPN':
+                                    $headerColor = 'bg-warning';
+                                    break;
+
+                                case 'JUDOL':
+                                    $headerColor = 'bg-danger';
+                                    break;
+
+                                case 'DOWNLOAD':
+                                    $headerColor = 'bg-success';
+                                    break;
+
+                                case 'SOSMED':
+                                    $headerColor = 'bg-primary';
+                                    break;
+                            }
+                            ?>
+                                <div class="card-header <?= $headerColor; ?> text-white">
                                     <h6 class="m-0 font-weight-bold"><i class="fas fa-shield-virus mr-2"></i> Analisis Sistem & Mitigasi</h6>
                                 </div>
                                 <div class="card-body d-flex flex-column">

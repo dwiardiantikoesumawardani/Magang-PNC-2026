@@ -1,14 +1,44 @@
 <?php
-// File: behavior_user.php
+$page_title   = "User Behavior Detection";
+$page_heading = "User Behavior Detection";
+
 include 'koneksi.php';
+
 date_default_timezone_set('Asia/Jakarta');
 $last_update = date('d M Y | H:i:s');
 
+function formatBytes($bytes)
+{
+    if ($bytes >= 1073741824) {
+        return round($bytes / 1073741824, 2) . ' GB';
+    }
+
+    if ($bytes >= 1048576) {
+        return round($bytes / 1048576, 2) . ' MB';
+    }
+
+    if ($bytes >= 1024) {
+        return round($bytes / 1024, 2) . ' KB';
+    }
+
+    return $bytes . ' B';
+}
+
 // 1. Ambil data HARI INI untuk Tabel
-$query_alerts = mysqli_query($conn, "SELECT * FROM behavior_alerts WHERE DATE(waktu) = CURDATE() ORDER BY id DESC");
+$batas = 5;
+$halaman = isset($_GET['halaman']) ? (int)$_GET['halaman'] : 1;
+$halaman_awal = ($halaman > 1) ? (($halaman * $batas) - $batas) : 0;
+
+$query_jumlah = mysqli_query($conn,"SELECT COUNT(*) as total FROM logs WHERE (kategori='DOWNLOAD' OR (kategori='SOSMED' AND url_akses='AKSES_20_MENIT')) AND DATE(waktu)=CURDATE()");
+
+$jumlah_data = mysqli_fetch_assoc($query_jumlah)['total'];
+$total_halaman = ceil($jumlah_data / $batas);
+
+$query_alerts = mysqli_query($conn,"SELECT * FROM logs WHERE (kategori='DOWNLOAD' OR (kategori='SOSMED' AND url_akses='AKSES_20_MENIT')) AND DATE(waktu)=CURDATE() ORDER BY id DESC LIMIT $halaman_awal,$batas");
 
 // 2. Siapkan Data untuk Grafik Garis (Tren per Jam Hari Ini)
-$grafik_garis = mysqli_query($conn, "SELECT HOUR(waktu) as jam, COUNT(*) as total FROM behavior_alerts WHERE DATE(waktu) = CURDATE() GROUP BY HOUR(waktu)");
+$grafik_garis = mysqli_query($conn, "SELECT HOUR(waktu) as jam, COUNT(*) as total FROM logs WHERE (kategori='DOWNLOAD' OR (kategori='SOSMED' AND url_akses='AKSES_20_MENIT')) AND DATE(waktu)=CURDATE() GROUP BY HOUR(waktu)");
+
 $data_jam = array_fill(0, 24, 0); 
 while($row = mysqli_fetch_assoc($grafik_garis)) {
     $data_jam[$row['jam']] = $row['total'];
@@ -17,89 +47,65 @@ $label_jam = json_encode(array_map(function($jam) { return sprintf("%02d:00", $j
 $nilai_jam = json_encode(array_values($data_jam));
 
 // 3. Siapkan Data untuk Grafik Pie (Persentase Tipe Alert Hari Ini)
-$grafik_pie = mysqli_query($conn, "SELECT tipe_alert, COUNT(*) as total FROM behavior_alerts WHERE DATE(waktu) = CURDATE() GROUP BY tipe_alert");
+$grafik_pie = mysqli_query($conn, "SELECT kategori, COUNT(*) as total FROM logs WHERE (kategori='DOWNLOAD' OR (kategori='SOSMED' AND url_akses='AKSES_20_MENIT')) AND DATE(waktu)=CURDATE() GROUP BY kategori");
+
 $label_pie = [];
 $nilai_pie = [];
 $total_insiden = 0;
 while($row = mysqli_fetch_assoc($grafik_pie)) {
-    $label_pie[] = $row['tipe_alert'];
+    $label_pie[] = $row['kategori'];
     $nilai_pie[] = $row['total'];
     $total_insiden += $row['total'];
 }
 $json_label_pie = json_encode($label_pie);
 $json_nilai_pie = json_encode($nilai_pie);
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Behavior Analytics - NetMonitor</title>
 
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+include 'includes/header.php';
+?>
 
     <style>
-        .container-fluid { padding-top: 10px !important; }
-        .card-body { padding: 0.75rem !important; }
-        .table td, .table th { padding: 0.5rem !important; vertical-align: middle !important; font-size: 0.85rem; }
-        .badge-download { background-color: #e74a3b; color: white; font-size: 0.75rem; }
-        .badge-stream { background-color: #f6c23e; color: white; font-size: 0.75rem; }
+        .badge-download { background-color: #28a745; color: white; font-size: 0.75rem; }
+        .badge-stream   { background-color: #007bff; color: white; font-size: 0.75rem; }
     </style>
-</head>
 
-<body id="page-top">
-    <div id="wrapper">
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-                <div class="sidebar-brand-icon"><i class="fas fa-shield-alt"></i></div>
-                <div class="sidebar-brand-text mx-3">NetMonitor</div>
-            </a>
-            <hr class="sidebar-divider my-0">
-            <li class="nav-item">
-                <a class="nav-link" style="padding: 0.5rem 1rem;" href="index.php"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" style="padding: 0.5rem 1rem;" href="riwayat.php"><i class="fas fa-fw fa-table"></i><span>Riwayat Insiden</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" style="padding: 0.5rem 1rem;" href="profil_user.php"><i class="fas fa-fw fa-user"></i><span>Profiling per User</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" style="padding: 0.5rem 1rem;" href="behavior_user.php"><i class="fas fa-fw fa-chart-pie"></i><span>User Behavior</span></a>
-            </li>
-            <hr class="sidebar-divider d-none d-md-block">
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-        </ul>
+        <?php include 'includes/sidebar.php'; ?>
 
         <div id="content-wrapper" class="d-flex flex-column">
             <div id="content">
-                <nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow d-flex align-items-center justify-content-between px-4 mb-4" style="height: 3.5rem;">
-                    <h1 class="h5 mb-0 text-gray-800">User Behavior Analytics</h1>
-                    <div class="text-muted small font-weight-bold">
-                        <i class="fas fa-sync-alt fa-sm mr-1"></i> Last Update: <?= $last_update; ?> WIB
-                    </div>
-                </nav>
+                
+                <?php include 'includes/topbar.php'; ?>
 
                 <div class="container-fluid">
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-2 bg-primary">
-                            <h6 class="m-0 font-weight-bold text-white">Log Aktivitas Unduhan & Bandwidth (Hari Ini)</h6>
+                    <div class="card shadow mb-3">
+                        <div class="card-header bg-primary">
+                            <h6 class="m-0 font-weight-bold text-white" style="font-size: 0.9rem;">Log Aktivitas Transfer Data & Media Sosial (Hari Ini)</h6>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="table table-bordered table-hover table-striped" id="dataTableBehavior" width="100%" cellspacing="0">
-                                    <thead class="bg-gray-100 text-center text-dark">
+                        <?php
+                            $total_device = mysqli_num_rows(
+                                mysqli_query(
+                                    $conn,
+                                    "SELECT DISTINCT ip_address
+                                    FROM logs
+                                    WHERE kategori IN ('DOWNLOAD','SOSMED')
+                                    AND DATE(waktu)=CURDATE()"
+                                )
+                            );
+                            ?>
+
+                            <div class="alert alert-light border-left-primary mb-3">
+                                <strong><?= $total_device; ?></strong>
+                                perangkat terdeteksi melakukan aktivitas
+                                Download atau Sosial Media hari ini.
+                            </div>
+                                <table class="table table-bordered table-sm table-striped table-hover text-center" id="dataTableBehavior" width="100%" cellspacing="0">
+                                    <thead class="bg-gray-100 text-dark">
                                         <tr>
                                             <th width="5%">No</th>
                                             <th width="15%">Waktu</th>
-                                            <th width="15%">MAC Address</th>
-                                            <th width="15%">Kategori Alert</th>
+                                            <th width="18%">Host / Device</th>
+                                            <th width="15%">Kategori</th>
                                             <th>Detail Singkat</th>
                                             <th width="10%">Aksi</th>
                                         </tr>
@@ -108,17 +114,45 @@ $json_nilai_pie = json_encode($nilai_pie);
                                         <?php 
                                         $no = 1; 
                                         while($row = mysqli_fetch_assoc($query_alerts)): 
-                                            $badge_class = (strpos($row['tipe_alert'], 'Download') !== false) ? 'badge-download' : 'badge-stream';
-                                            $keterangan_singkat = strlen($row['keterangan']) > 60 ? substr(strip_tags($row['keterangan']), 0, 60) . "..." : strip_tags($row['keterangan']);
-                                        ?>
+                                            $badge_class = ($row['kategori'] == 'DOWNLOAD') ? 'badge-download' : 'badge-stream';
+                                            $keterangan_singkat = strlen($row['url_akses']) > 60 ? substr(strip_tags($row['url_akses']), 0, 60) . "..." : strip_tags($row['url_akses']);
+                                            if($row['kategori'] == 'SOSMED'){
+                                            $penjelasan = "Terdeteksi akses ke platform media sosial yang berpotensi mengurangi produktivitas kerja.";
+                                            }
+                                            else{
+                                                $penjelasan = "Terdeteksi aktivitas transfer data berukuran besar yang berpotensi menghabiskan bandwidth jaringan.";
+                                            }
+                                                                                ?>
                                         <tr>
-                                            <td class="text-center font-weight-bold"><?= $no++; ?></td>
-                                            <td class="text-center small"><?= $row['waktu']; ?></td>
-                                            <td class="text-center"><code><?= $row['mac_address']; ?></code></td>
-                                            <td class="text-center"><span class="badge <?= $badge_class ?> px-2"><?= $row['tipe_alert']; ?></span></td>
-                                            <td class="small"><?= $keterangan_singkat; ?></td>
-                                            <td class="text-center">
-                                                <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#detailModal<?= $row['id']; ?>" title="Lihat Detail">
+                                            <td class="font-weight-bold"><?= $row['id']; ?></td>
+                                            <td class="small"><?= $row['waktu']; ?></td>
+                                            <td class="text-left align-middle">
+
+                                                <strong>
+                                                    <?= !empty($row['hostname'])
+                                                        ? htmlspecialchars($row['hostname'])
+                                                        : 'Tidak Terdeteksi'; ?>
+                                                </strong>
+
+                                                <br>
+
+                                                <small class="text-primary font-weight-bold">
+                                                    <?= htmlspecialchars($row['ip_address']); ?>
+                                                </small>
+
+                                                <br>
+
+                                                <small class="text-danger">
+                                                    <?= htmlspecialchars($row['mac_address']); ?>
+                                                </small>
+
+                                            </td>
+                                            <td><span class="badge <?= $badge_class ?> px-2"><?= $row['kategori']; ?></span></td>
+                                            <td class="text-left small">
+                                                <?= htmlspecialchars($keterangan_singkat); ?>
+                                        </td>
+                                            <td>
+                                                <button class="btn btn-info btn-sm p-1" data-toggle="modal" data-target="#detailModal<?= $row['id']; ?>" title="Lihat Detail">
                                                     <i class="fas fa-eye"></i> Detail
                                                 </button>
 
@@ -132,51 +166,229 @@ $json_nilai_pie = json_encode($nilai_pie);
                                                                 </button>
                                                             </div>
                                                             <div class="modal-body text-dark">
-                                                                <table class="table table-borderless table-sm mb-2">
-                                                                    <tr><th width="40%">Waktu Kejadian</th><td>: <?= $row['waktu']; ?></td></tr>
-                                                                    <tr><th>MAC Address</th><td>: <code><?= $row['mac_address']; ?></code></td></tr>
-                                                                    <tr><th>Tipe Peringatan</th><td>: <span class="badge <?= $badge_class ?>"><?= $row['tipe_alert']; ?></span></td></tr>
-                                                                    <tr><th colspan="2">Keterangan Aktivitas:</th></tr>
-                                                                </table>
-                                                                <div class="alert alert-secondary small mb-0">
-                                                                    <?= $row['keterangan']; ?>
+
+                                                                <?php
+                                                                $methodClass =
+                                                                    ($row['resolve_method'] == 'DHCP')
+                                                                    ? 'badge-success'
+                                                                    : 'badge-warning';
+                                                                ?>
+
+                                                                <div class="row align-items-stretch">
+
+                                                                    <div class="col-md-6">
+
+                                                                        <table class="table table-borderless table-sm">
+
+                                                                            <tr>
+                                                                                <th width="40%">Hostname</th>
+                                                                                <td><?= !empty($row['hostname']) ? $row['hostname'] : 'Tidak Terdeteksi'; ?></td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <th>IP Address</th>
+                                                                                <td><?= $row['ip_address']; ?></td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <th>MAC Address</th>
+                                                                                <td><code><?= $row['mac_address']; ?></code></td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <th>Waktu</th>
+                                                                                <td><?= $row['waktu']; ?></td>
+                                                                            </tr>
+
+                                                                        </table>
+
+                                                                    </div>
+
+                                                                    <div class="col-md-6">
+
+                                                                        <table class="table table-borderless table-sm">
+
+                                                                            <tr>
+                                                                                <th width="40%">Kategori</th>
+                                                                                <td>
+                                                                                    <span class="badge <?= $badge_class ?>">
+                                                                                        <?= $row['kategori']; ?>
+                                                                                    </span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <th>Resolve</th>
+                                                                                <td>
+                                                                                    <span class="badge <?= $methodClass ?>">
+                                                                                        <?= $row['resolve_method']; ?>
+                                                                                    </span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <?php if($row['kategori']=='DOWNLOAD'): ?>
+                                                                                <tr>
+                                                                                    <th>Threshold</th>
+                                                                                    <td><?= formatBytes($row['bytes_download']); ?></td>
+                                                                                </tr>
+                                                                                <?php endif; ?>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <th>Status</th>
+                                                                                <td>
+                                                                                    <span class="badge badge-success">
+                                                                                        Terdeteksi
+                                                                                    </span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                        </table>
+
+                                                                    </div>
+
                                                                 </div>
+
+                                                                <hr>
+
+                                                                <h6 class="font-weight-bold text-primary">
+                                                                    Analisis Aktivitas
+                                                                </h6>
+
+                                                                <div class="alert alert-light border">
+
+                                                                    <?= $penjelasan; ?>
+
+                                                                </div>
+
+                                                                <?php if($row['kategori'] == 'DOWNLOAD'): ?>
+                                                                <div class="alert alert-warning">
+                                                                    Threshold transfer data terlampaui (>30 MB per koneksi TCP aktif).
+                                                                </div>
+                                                                <?php endif; ?>
+
+                                                                <h6 class="font-weight-bold text-primary">
+                                                                    Aktivitas Terdeteksi
+                                                                </h6>
+
+                                                                <div class="alert alert-secondary">
+
+                                                                    <?= htmlspecialchars($row['url_akses']); ?>
+
+                                                                </div>
+
+                                                                <?php
+                                                                    $dst = trim($row['dst_address']);
+                                                                    ?>
+
+                                                                    <?php if(
+                                                                        !empty($dst)
+                                                                        && !in_array(
+                                                                            strtoupper($dst),
+                                                                            ['N/A', '-', 'TIDAK-TERDETEKSI', 'TIDAK-DIGUNAKAN']
+                                                                        )
+                                                                    ): ?>
+
+                                                                    <h6 class="font-weight-bold text-primary">
+                                                                        Destination Address
+                                                                    </h6>
+
+                                                                    <div class="alert alert-info mb-0">
+                                                                        <?= htmlspecialchars($dst); ?>
+                                                                    </div>
+
+                                                                    <?php endif; ?>
+
                                                             </div>
-                                                            <div class="modal-footer py-1">
                                                                 <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Tutup</button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                </td>
+                                            </td>
                                         </tr>
                                         <?php endwhile; ?>
                                     </tbody>
                                 </table>
                             </div>
+                            <?php if($total_halaman > 1): ?>
+                                                                    <nav class="mt-2">
+                                                                        <ul class="pagination pagination-sm justify-content-end mb-0">
+
+                                                                            <li class="page-item <?= ($halaman <= 1) ? 'disabled' : ''; ?>">
+                                                                                <a class="page-link"
+                                                                                href="?halaman=<?= $halaman-1; ?>">
+                                                                                Previous
+                                                                                </a>
+                                                                            </li>
+
+                                                                            <?php for($x=1;$x<=$total_halaman;$x++): ?>
+                                                                            <li class="page-item <?= ($halaman==$x)?'active':''; ?>">
+                                                                                <a class="page-link"
+                                                                                href="?halaman=<?= $x; ?>">
+                                                                                <?= $x; ?>
+                                                                                </a>
+                                                                            </li>
+                                                                            <?php endfor; ?>
+
+                                                                            <li class="page-item <?= ($halaman >= $total_halaman) ? 'disabled' : ''; ?>">
+                                                                                <a class="page-link"
+                                                                                href="?halaman=<?= $halaman+1; ?>">
+                                                                                Next
+                                                                                </a>
+                                                                            </li>
+
+                                                                        </ul>
+                                                                    </nav>
+                                                                    <?php endif; ?>
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-xl-8 col-lg-7 mb-4">
-                            <div class="card shadow h-100">
-                                <div class="card-header"><h6 class="m-0 font-weight-bold text-primary" style="font-size: 1rem;">Trafik Behavior Hari Ini</h6></div>
-                                <div class="card-body">
-                                    <div class="chart-area" style="height: 200px;"><canvas id="myAreaChart"></canvas></div>
-                                </div>
+                    <div class="row align-items-stretch">
+                        <div class="col-xl-8 col-lg-7 d-flex">
+                            <div class="card shadow mb-3 w-100 h-100">
+                                <div class="card-header"><h6 class="m-0 font-weight-bold text-primary" style="font-size: 0.9rem;">Trafik Behavior Hari Ini</h6></div>
+                                <div class="card-body"><div class="chart-area" style="height: 200px;"><canvas id="myAreaChart"></canvas></div></div>
                             </div>
                         </div>
 
-                        <div class="col-xl-4 col-lg-5">
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-2 bg-white">
-                                    <h6 class="m-0 font-weight-bold text-primary">Persentase (Hari Ini)</h6>
+                        <div class="col-xl-4 col-lg-5 d-flex">
+                            <div class="card shadow mb-3 w-100 h-100">
+                                <div class="card-header bg-white">
+                                    <h6 class="m-0 font-weight-bold text-primary" style="font-size: 0.9rem;">Persentase (Hari Ini)</h6>
                                 </div>
                                 <div class="card-body">
-                                    <div class="chart-pie pt-2 pb-2" style="height: 215px;">
+                                    <div class="chart-pie pt-2 pb-2" style="height: 160px;">
                                         <canvas id="myPieChart"></canvas>
                                     </div>
-                                    <div class="mt-2 text-center small font-weight-bold">
+                                    <?php if($total_insiden > 0): ?>
+
+                                    <div class="small mt-2 px-3">
+
+                                    <?php
+                                    foreach($label_pie as $i => $label):
+
+                                    $persen = round(
+                                        ($nilai_pie[$i] / $total_insiden) * 100,
+                                        1
+                                    );
+                                    ?>
+
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span><?= $label; ?></span>
+                                        <strong><?= $persen; ?>%</strong>
+                                    </div>
+
+                                    <?php endforeach; ?>
+
+                                    </div>
+
+                                    <?php endif; ?>
+
+                                    <hr class="my-2">
+
+                                    <div class="text-center small font-weight-bold">
                                         Total: <?= $total_insiden; ?> Insiden
                                     </div>
                                 </div>
@@ -191,23 +403,16 @@ $json_nilai_pie = json_encode($nilai_pie);
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="js/sb-admin-2.min.js"></script>
-    
-    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
     <script src="vendor/chart.js/Chart.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
         $(document).ready(function() {
-            $('#dataTableBehavior').DataTable({
-                "order": [[ 0, "desc" ]], // Diurutkan dari yang terbaru
-                "pageLength": 5, 
-                "language": { "search": "Cari Log:", "lengthMenu": "Tampil _MENU_ data" }
-            });
-
-            // Sistem Polling Alert Pop-up SweetAlert2
+           
             function cekAlertBehavior() {
                 $.ajax({
                     url: 'cek_alert.php', type: 'GET', dataType: 'json',
@@ -225,7 +430,6 @@ $json_nilai_pie = json_encode($nilai_pie);
             setInterval(cekAlertBehavior, 5000);
         });
 
-        // ================= GRAFIK GARIS (AREA CHART) =================
         var ctx = document.getElementById("myAreaChart");
         if(ctx) {
             var myLineChart = new Chart(ctx, {
@@ -243,7 +447,7 @@ $json_nilai_pie = json_encode($nilai_pie);
                 },
                 options: {
                     maintainAspectRatio: false,
-                    layout: { padding: { left: 10, right: 25, top: 25, bottom: 0 } },
+                    layout: { padding: 0 },
                     scales: {
                         xAxes: [{ gridLines: { display: false, drawBorder: false }, ticks: { maxTicksLimit: 12 } }],
                         yAxes: [{
@@ -260,7 +464,6 @@ $json_nilai_pie = json_encode($nilai_pie);
             });
         }
 
-        // ================= GRAFIK LINGKARAN (PIE CHART) =================
         var ctxPie = document.getElementById("myPieChart");
         if(ctxPie && <?= $total_insiden; ?> > 0) {
             var myPieChart = new Chart(ctxPie, {
@@ -269,8 +472,8 @@ $json_nilai_pie = json_encode($nilai_pie);
                     labels: <?= $json_label_pie; ?>,
                     datasets: [{
                         data: <?= $json_nilai_pie; ?>,
-                        backgroundColor: ['#e74a3b', '#f6c23e', '#4e73df'],
-                        hoverBackgroundColor: ['#be2617', '#dda20a', '#2e59d9'],
+                        backgroundColor: ['#2675dd', '#00ff22', '#4e73df'],
+                        hoverBackgroundColor: ['#2675dd', '#00ff22', '#2e59d9'],
                         hoverBorderColor: "rgba(234, 236, 244, 1)",
                     }],
                 },

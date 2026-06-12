@@ -1,0 +1,103 @@
+:local apiURL "http://192.168.88.249/monitoring/api_terima_log.php"
+
+:foreach i in=[/ip firewall address-list find list="Heavy_Downloader"] do={
+
+    :local userIP [/ip firewall address-list get $i address]
+
+    :local cooldown [/ip firewall address-list find where address=$userIP list="Cooldown-Download"]
+
+    :if ([:len $cooldown] > 0) do={
+        :log info ("DOWNLOAD cooldown aktif: " . $userIP)
+        /ip firewall address-list remove $i
+        :continue
+    }
+
+    :local userMAC "00:00:00:00:00:00"
+    :local hostName "Tidak Terdeteksi"
+    :local resolveMethod "UNKNOWN"
+
+    :local leaseId [/ip dhcp-server lease find address=$userIP]
+
+    :if ([:len $leaseId] > 0) do={
+        :local targetLease ($leaseId->0)
+
+        :do {
+            :set userMAC [/ip dhcp-server lease get $targetLease mac-address]
+        } on-error={}
+
+        :do {
+            :set hostName [/ip dhcp-server lease get $targetLease host-name]
+        } on-error={}
+
+        :set resolveMethod "DHCP"
+    }
+
+    :if ($resolveMethod = "UNKNOWN") do={
+        :local arpId [/ip arp find address=$userIP]
+
+        :if ([:len $arpId] > 0) do={
+            :set userMAC [/ip arp get ($arpId->0) mac-address]
+            :set resolveMethod "ARP"
+        }
+    }
+
+    :local actualBytes 0
+    :local dstName "N/A"
+
+    :foreach conn in=[/ip firewall connection find where src-address~$userIP] do={
+
+        :local connData [/ip firewall connection print detail as-value where .id=$conn]
+
+        :if ([:len $connData] > 0) do={
+
+            :local origBytes 0
+            :local replBytes 0
+            :local totalBytes 0
+
+            :do {
+                :set origBytes ([:tonum (($connData->0)->"orig-bytes")])
+            } on-error={}
+
+            :do {
+                :set replBytes ([:tonum (($connData->0)->"repl-bytes")])
+            } on-error={}
+
+            :set totalBytes ($origBytes + $replBytes)
+
+            :if ($totalBytes > $actualBytes) do={
+
+                :set actualBytes $totalBytes
+
+                :do {
+                    :set dstName (($connData->0)->"dst-address")
+                } on-error={}
+            }
+        }
+    }
+
+    :if ($actualBytes = 0) do={
+        :set actualBytes 30000000
+    }
+
+    :local dataWeb ("mac=" . $userMAC . "&ip=" . $userIP . "&hostname=" . $hostName . "&resolve_method=" . $resolveMethod . "&dst=" . $dstName . "&bytes=" . $actualBytes . "&kategori=DOWNLOAD" . "&url=AKTIVITAS_TRANSFER_DATA_TINGGI")
+
+    :log warning ("[DOWNLOAD] " . $userIP . " | HOST=" . $hostName . " | BYTES=" . $actualBytes)
+
+    :do {
+
+        /tool fetch url=$apiURL http-method=post http-data=$dataWeb keep-result=no
+
+        :log warning ("DOWNLOAD BERHASIL DIKIRIM: " . $actualBytes . " bytes")
+
+        /ip firewall address-list add \
+            address=$userIP \
+            list="Cooldown-Download" \
+            timeout=30m
+
+    } on-error={
+
+        :log error ("Gagal kirim DOWNLOAD ke API: " . $userIP)
+    }
+
+    /ip firewall address-list remove $i
+}

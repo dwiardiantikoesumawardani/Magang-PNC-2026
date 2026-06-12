@@ -1,5 +1,9 @@
 <?php
+$page_title   = "Dashboard";
+$page_heading = "Live Monitoring System";
+
 include 'koneksi.php';
+include 'includes/header.php';
 
 // 1. REVISI: Persentase berdasarkan HARI INI saja
 $query_vpn_today = mysqli_query($conn, "SELECT COUNT(*) as total FROM logs WHERE kategori='VPN' AND DATE(waktu) = CURDATE()");
@@ -19,7 +23,7 @@ $total_today = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(*) as total 
 
 // Data Grafik Insiden Per Jam
 $grafik_jam = array_fill(0, 24, 0); 
-$query_grafik = mysqli_query($conn, "SELECT HOUR(waktu) as jam, COUNT(*) as total FROM logs WHERE DATE(waktu) = CURDATE() GROUP BY HOUR(waktu)");
+$query_grafik = mysqli_query($conn, "SELECT HOUR(waktu) as jam, COUNT(*) as total FROM logs WHERE DATE(waktu) = CURDATE() AND kategori IN ('VPN', 'JUDOL') GROUP BY HOUR(waktu)");
 while($row = mysqli_fetch_assoc($query_grafik)){
     $grafik_jam[$row['jam']] = $row['total'];
 }
@@ -30,73 +34,12 @@ $data_jam = '[' . implode(',', $grafik_jam) . ']';
 $last_update = date('d M Y | H:i:s');
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Monitoring Keamanan Jaringan</title>
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
-    <style>
-        /* ===== PADDING UTAMA (Lebih rapi, sedikit dilonggarkan) ===== */
-        .container-fluid { padding: 0.5rem !important; }   
-        .card-body        { padding: 0.5rem !important; }  
-        .card-header      { padding: 0.5rem 0.75rem !important; } 
-        
-        /* Font dan Padding pada tabel sedikit dibesarkan dari sebelumnya */
-        .table td,
-        .table th         { 
-            padding: 0.3rem 0.5rem !important;  
-            vertical-align: middle !important; 
-            font-size: 0.95rem; /* Teks tabel sedikit lebih besar */
-        }
+<?php include 'includes/sidebar.php'; ?>
 
-        /* ===== ELEMEN LAIN: Penyesuaian Font ===== */
-        .topbar { 
-            height: 3rem !important;
-            margin-bottom: 0.5rem !important; 
-        }
-        .mb-3, .mb-4 { margin-bottom: 0.5rem !important; } 
-        h1.h4    { font-size: 1.3rem; } /* Font judul atas dibesarkan */
-        .text-xs { font-size: 0.75rem; } /* Label card atas sedikit dibesarkan */
-        .h5      { font-size: 1.25rem; margin-top: -2px; } /* Angka total dibesarkan */
-        .fa-2x   { font-size: 1.8em; }
-    </style>
-</head>
-
-<body id="page-top">
-    <div id="wrapper">
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-                <div class="sidebar-brand-icon"><i class="fas fa-shield-alt"></i></div>
-                <div class="sidebar-brand-text mx-3">NetMonitor</div>
-            </a>
-            <hr class="sidebar-divider my-0">
-            <li class="nav-item active">
-                <a class="nav-link" style="padding: 0.5rem 1rem;" href="index.php"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" style="padding: 0.5rem 1rem;" href="riwayat.php"><i class="fas fa-fw fa-table"></i><span>Riwayat Insiden</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" style="padding: 0.5rem 1rem;" href="profil_user.php"><i class="fas fa-fw fa-user"></i><span>Profiling per User</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" style="padding: 0.5rem 1rem;" href="behavior_user.php"><i class="fas fa-fw fa-chart-pie"></i><span>User Behavior</span></a>
-            </li>
-        </ul>
-
-        <div id="content-wrapper" class="d-flex flex-column">
+<div id="content-wrapper" class="d-flex flex-column">
             <div id="content">
-                <nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow d-flex align-items-center justify-content-between">
-                    <h1 class="h4 mb-0 text-gray-800 ml-3">Live Monitoring System</h1>
-                    <div class="mr-3 text-muted small font-weight-bold">
-                        <i class="fas fa-sync-alt fa-spin mr-1"></i> Last Update: <?= $last_update; ?>
-                    </div>
-                </nav>
+                
+                <?php include 'includes/topbar.php'; ?>
 
                 <div class="container-fluid">
                     <div class="row">
@@ -266,8 +209,8 @@ $last_update = date('d M Y | H:i:s');
         </div>
     </div>
 
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <?php include 'includes/scripts.php'; ?>
+
     <script src="vendor/chart.js/Chart.min.js"></script>
     <script>
     var myPieChart = new Chart(document.getElementById("myPieChart"), {

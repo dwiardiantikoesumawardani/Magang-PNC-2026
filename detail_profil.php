@@ -1,4 +1,7 @@
 <?php
+$page_title   = "Detail Profil";
+$page_heading = "Analisis Profil";
+
 include 'koneksi.php';
 
 // Validasi jika MAC tidak ada di URL
@@ -9,27 +12,21 @@ $mac = $_GET['mac'];
 $user = mysqli_fetch_assoc(mysqli_query($conn, "SELECT hostname FROM logs WHERE mac_address='$mac' ORDER BY waktu DESC LIMIT 1"));
 
 // 2. Ambil statistik pelanggaran
-$stats = mysqli_fetch_assoc(mysqli_query($conn, "SELECT 
-    COUNT(*) as total,
-    SUM(CASE WHEN kategori='JUDOL' THEN 1 ELSE 0 END) as total_judol,
-    SUM(CASE WHEN kategori='VPN' THEN 1 ELSE 0 END) as total_vpn
-    FROM logs WHERE mac_address='$mac'"));
+$stats = mysqli_fetch_assoc(mysqli_query($conn, " SELECT
+        COUNT(*) as total,
+        SUM(CASE WHEN kategori='JUDOL' THEN 1 ELSE 0 END) as total_judol,
+        SUM(CASE WHEN kategori='VPN' THEN 1 ELSE 0 END) as total_vpn,
+        SUM(CASE WHEN kategori='DOWNLOAD' THEN 1 ELSE 0 END) as total_download,
+        SUM(CASE WHEN kategori='SOSMED' THEN 1 ELSE 0 END) as total_sosmed
+    FROM logs
+    WHERE mac_address='$mac'
+"));
 
 // 3. Ambil riwayat lengkap insiden untuk MAC ini
 $riwayat = mysqli_query($conn, "SELECT * FROM logs WHERE mac_address='$mac' ORDER BY waktu DESC");
-?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Profil Perangkat - <?= $user['hostname']; ?></title>
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-</head>
-<body id="page-top">
-    <div id="wrapper">
+include 'includes/header.php';
+?>
         <div id="content-wrapper" class="d-flex flex-column">
             <div id="content" class="p-4">
                 
@@ -104,8 +101,29 @@ $riwayat = mysqli_query($conn, "SELECT * FROM logs WHERE mac_address='$mac' ORDE
                                         <td><?= $row['waktu']; ?></td>
                                         <td><span class="badge badge-light border"><?= $row['ip_address']; ?></span></td>
                                         <td>
-                                            <span class="badge badge-<?= ($row['kategori']=='VPN')?'warning':'danger'; ?>">
-                                                <?= $row['kategori']; ?>
+                                        <?php
+                                        $badge_color = 'secondary';
+
+                                        switch(strtoupper($row['kategori'])) {
+                                            case 'VPN':
+                                                $badge_color = 'warning';
+                                                break;
+
+                                            case 'JUDOL':
+                                                $badge_color = 'danger';
+                                                break;
+
+                                            case 'DOWNLOAD':
+                                                $badge_color = 'success';
+                                                break;
+
+                                            case 'SOSMED':
+                                                $badge_color = 'primary';
+                                                break;
+                                        }
+                                        ?>
+                                            <span class="badge badge-<?= $badge_color; ?>">
+                                                <?= strtoupper($row['kategori']); ?>
                                             </span>
                                         </td>
                                         <td class="text-primary"><?= $row['dst_address']; ?></td>
@@ -126,8 +144,7 @@ $riwayat = mysqli_query($conn, "SELECT * FROM logs WHERE mac_address='$mac' ORDE
         </div>
     </div>
 
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <?php include 'includes/scripts.php'; ?>
     <script src="vendor/datatables/jquery.dataTables.min.js"></script>
     <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
     <script>
